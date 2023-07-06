@@ -579,6 +579,54 @@
         padding: 1px 4px;  
     }
 }
+@media(max-width:202px){
+    #upper-nav{
+        display: flex;
+        font-size: 2px;
+    }
+    #AboutArea{
+    width: 70%;
+    }
+    #timing{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #timing i{
+        font-size: 3px;
+        padding-right:2px;
+    }
+    #upper-nav-email{
+        padding-right: 10px;
+    }
+    #iwhatsapp{
+        padding: 4px 2px; 
+        font-size:4px;
+    }
+    #ilinkdin{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #iinstagram{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #itwitter{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #ifacebook{
+        padding: 4px 2px; 
+        font-size: 4px;
+    }
+    #Talk{
+        width: 30%;
+        padding: 2px;
+        font-size:3px;
+    }
+    #Talk i{
+        padding: 1px 4px;  
+    }
+}
 
 #mainNav{
     display: flex;
@@ -921,6 +969,29 @@
         list-style-type: none;
         display: flex;
         margin-left: -25px;
+    }
+}
+@media(max-width:208px){
+    #mainNav{
+        font-size: 3px;
+        padding-top: 10px;
+        
+    }
+    #mainNavImage{
+      padding-left: 10px;
+      width: 50px;
+      height: auto;
+      margin-top: -15px;
+    }
+    .items{
+        font-family: sans-serif;
+        padding-right: 3px;
+        font-weight: bold;
+    }
+    #Nav-items{
+        list-style-type: none;
+        display: flex;
+        margin-left: -30px;
     }
 }
 
@@ -1588,6 +1659,30 @@
         font-size: 9px;
     }
 }
+@media(max-width:204px){
+    #logos{
+        margin-top: 20px;
+    }
+    
+    #logos img{
+        width:20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    #logos div{
+        font-size: 4px;
+        font-weight: 600;
+        margin-right: 5px;
+    }
+    #textBelowFourLogos{
+        font-size: 9px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    #textBelowFourLogos i{
+        font-size: 9px;
+    }
+}
 
 
 #middle{
@@ -1932,7 +2027,7 @@
 }
 @media(max-width:221px){
     #middle{
-        padding: 25px 20px;
+        padding: 25px 15px;
     }
     #middleText{
         font-size: 6px;
@@ -1945,6 +2040,30 @@
     #middleImages img{
         width: 43px;
         height: 30px;
+    }
+    .Image1{
+        margin-bottom: 10px;
+        margin-right: 8px;
+    }
+    .Image2{
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:190px){
+    #middle{
+        padding: 25px 15px;
+    }
+    #middleText{
+        font-size: 6px;
+        font-weight: 600;
+    }
+    #middleText p{
+        margin-bottom: 5px;
+        padding-right: 14px;
+    }
+    #middleImages img{
+        width: 40px;
+        height: 28px;
     }
     .Image1{
         margin-bottom: 10px;
